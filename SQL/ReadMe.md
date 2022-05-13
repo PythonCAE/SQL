@@ -12,12 +12,12 @@ INSERT INTO Student(Roll,Name,Address,Gender,Total_Fee) VALUES (1,'Pharping','M'
 # To View Distinct Data we use DISTINCT keyword:
 Syntax:
 ``` SQL
-INSERT DISTINCT COLUMN_NAME FROM TABLE_NAME;
+SELECT DISTINCT COLUMN_NAME FROM TABLE_NAME;
 ```
 
 Example:
 ```SQL
-INSERT DISTINCT Adress FROM Student;
+SELECT DISTINCT Adress FROM Student;
 ```
 
 # To Delete Data from Table:
